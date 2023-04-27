@@ -1,0 +1,16 @@
+.album-complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+span {
+  display: flex;
+  margin-top: 2vh;
+}
+
+span:hover {
+  transform: scale(1.2);
+}

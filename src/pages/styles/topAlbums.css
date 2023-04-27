@@ -1,0 +1,42 @@
+/*MOVIL*/
+
+main {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.album-top {
+  padding: 0;
+}
+
+.album-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .album-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1080px) {
+  .album-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
